@@ -1,0 +1,96 @@
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.todo-aplication-text {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.todo-empty {
+  font-size: 35px;
+}
+.add-task-button {
+  width: 300px;
+  height: 50px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.add-page {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.change-page {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.add-task {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.canceled-button,
+.canceled-change-button,
+.save-change-button,
+.save-button {
+  width: 200px;
+  height: 45px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.input-add-task {
+  width: 250px;
+  height: 35px;
+  margin-bottom: 20px;
+}
+.new-item {
+  display: flex;
+  margin-top: 20px;
+  width: 300px;
+}
+.new-item-text {
+  font-size: 30px;
+  margin: auto;
+}
+.check-box {
+  background: url("https://static.thenounproject.com/png/60244-200.png");
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+}
+.remove-box {
+  background: url("https://image.flaticon.com/icons/png/512/61/61848.png");
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+}
+
+.input-change-task {
+  width: 250px;
+  height: 35px;
+  margin-bottom: 20px;
+}
+.change-task {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.item-wrapper {
+  display: flex;
+  width: 100%;
+}
+#items-list {
+  padding: 0;
+}
+.new-item-with-cover {
+  display: flex;
+  margin-top: 20px;
+  width: 300px;
+  background: gray;
+}
+.check-box-with-cover {
+  background: url("https://user-images.githubusercontent.com/11351528/51387695-f564d000-1b4c-11e9-817d-5e6280f997d0.png");
+  width: 35px;
+  height: 35px;
+  background-size: cover;
+}
