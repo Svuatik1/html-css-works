@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-wrapper{
+    background: url(../img/sample2.jpg) 100% 100% no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+header, .main-section{
+    padding: 30px 30px 0 30px;
+    color: white;
+}
+.header-login{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+.center-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 190px;
+    color: white;
+}
+.lorem-ipsum-text{
+    letter-spacing: 6px;
+    font-size: 45px;
+}
+.sign{
+    font-size: 70px;
+}
+.button-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 220px;
+    margin-top: 180px;
+}
+.show-more, .careers, .about{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: white;
+    width: 170px;
+    height: 45px;
+}
+.black-wrapper {
+    height: 180px;
+    position: relative;
+}
+
+.black-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 180px solid black;
+    border-left: 100vw solid #F0F0F0;
+    width: 0;
+}
+
+.text1{
+    color: white;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    font-size: 14px;
+    position: relative;
+}
+.text2{ 
+    color: black;
+    font-size: 14px;
+    padding-left: 30px;
+    position: relative;
+}
+.bold-text{
+    font-weight: bold;
+}
+.featured-articles{
+    padding: 0 30px;
+    background-color: #F0F0F0;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+}
+.img-text-main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.img{
+    width: 50%;
+    height: 260px;
+}
+.text-main{
+    padding-left: 100px;
+}
+.text-three{
+    font-size: 13px;
+    padding: 29px 0;
+    text-align: center;
+}
+.text-in-img{
+    position: relative;
+}
+.blocks-explore{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 50px 150px;
+}
+.explore{
+    border: 1px solid whitesmoke;
+    padding: 15px;
+    font-size: 13px;
+    box-shadow: 5px 5px 10px grey;
+    width: 250px;
+}
+.btn-explore{
+    padding: 17px 104px;
+    background-color: #097774;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.text-explore{
+    padding-bottom: 15px;
+}
+.subscribe{
+    background-color: #F0F0F0;
+    padding: 50px 30px 50px 30px;
+}
+.subscribe-form{
+    display: flex;
+    justify-content: flex-end;
+}
+.text-subscribe{
+    font-size: 25px;
+    padding-right: 20px;
+}
+.block-btn{
+    padding-left: 25px;
+}
+.subscribe-input{
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+.subscribe-btn{
+    padding: 17px 50px;
+    background-color: #097774;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.contact{
+    background-color: white;
+    padding: 70px 30px 70px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-text{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-text-form{
+    padding-right: 20px;
+}
+.text-grey{
+    font-size: 14px;
+    color: gainsboro;
+    padding-top: 15px;
+}
+.black-white, .last-tweet{
+    padding-right: 50px;
+}
+.italic{
+    font-style: italic;
+}
+.input-btn{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 15px;
+}
+.logo{
+    display: flex;
+}
+footer{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: black;
+}
+
+
+
+
+
