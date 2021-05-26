@@ -1,0 +1,123 @@
+.tm-banner{
+  background-color: gainsboro;
+}
+.tm-banner-inner{
+  background-color: white;
+}
+.tm-banner-text::first-letter{
+  font-size: 30px;
+  color: lightskyblue;
+}
+.tm-box-bg-title:hover{
+    background-color: lightskyblue;
+    color: white;
+}
+.tm-content-header,
+.tm-content-box,
+.tm-sidebar{
+  box-shadow: 0px 0px 0px 3px grey;
+}
+.flex-2-col{
+  display: flex;
+  justify-content: space-between;
+}
+section:first-of-type {
+  position: relative;
+}
+section:first-of-type::after {
+  display: block;
+  content: '';
+  border-left: 300px solid lightskyblue;
+  border-bottom: 30px solid transparent;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+.padding-medium{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tm-section-description:first-of-type{
+  font-style: italic;
+  padding-top: 15px;
+  text-indent: 20px;
+}
+.tm-section-description:first-letter{
+  color: lightskyblue;
+}
+.tm-section-description:nth-child(3)::first-letter{
+  color: lightskyblue;
+}
+.tm-section-description:nth-child(3){
+  text-indent: 20px;
+  padding-top: 15px;
+}
+a:visited{
+  text-decoration-line: underline;
+}
+a:hover{
+  font-weight: bold;
+}
+.text::after{
+  content: "New"; 
+  color: red; 
+  vertical-align: super; 
+  font-size: 10px;
+}
+.gallery-container p{
+  font-style: italic;
+}
+.gallery-container p::first-letter{
+  font-weight: bold;
+  font-size: 22px;
+}
+.box-work{
+  padding: 10px;
+}
+.box-work:nth-child(even){
+  background-color: gainsboro;
+}
+.mandatory-field::after{
+  content: "*"; 
+  color: red;
+}
+.submit-btn{
+  color: lightskyblue;
+  background-color: white;
+  border-color: lightskyblue;
+  border-radius: 0;
+  display: flex;
+  margin-left:auto;
+  padding: 11px 43px;
+}
+.submit-btn:hover{
+  color: white;
+  background-color: lightskyblue;
+  border-color: lightskyblue;
+}
+.tm-nav-item:hover{
+  background-color: gainsboro;
+}
+@media print{
+  nav, ul.boxes, ol, section.blocks, section#ideas, section.tm-content-box, section:first-of-type::after{
+    display: none;
+  }
+  div.container{
+    max-width: 560px;
+  }
+  div.flex-item:first-child{
+    flex:4;
+  }
+  div.flex-item:last-child{
+    flex:4;
+    display: flex;
+    align-items: center;
+  }
+  h2.tm-section-title{
+    color: blue;
+  }
+  p{
+    font-size: 16px;
+  } 
+} 
