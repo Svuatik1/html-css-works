@@ -1,0 +1,188 @@
+// Write your styles here
+* {
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+}
+body {
+    font: $mainFont;
+}
+
+header{
+    background: $bgimg;
+    height: 1200px;
+
+    section {
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+            h1 {
+                font-weight: bold;
+                color: $fontColor;
+                text-transform: uppercase;
+            }
+    }
+}
+
+.logo {
+    width: 400px;
+
+    img {
+        width: 100%;
+    }
+}
+.top-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    font-size: 31px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 20px;
+
+     a{
+        color: $fontColor;
+        text-decoration: none;
+        padding: 0px 150px;
+    }
+}
+.btn-top{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: $backgroundcolorbtn;
+    display: flex;
+    width: 166px;
+    height: 42px;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+}
+.toolbar{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+        input{
+            width: 200px;
+            height: 33px;
+            padding-left: 20px;
+            font-size: medium;                  
+        }
+}
+.post{
+    margin-right: 15px;
+}
+.post-list h1{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+article{
+    display: flex;
+    background-color: $bgcolorblock;
+    margin-bottom: 30px;
+        img{
+            padding: 10px;
+            height: 300px;
+        }
+}
+.post-description{
+    padding-left: 10px;
+    padding-top: 15px;
+    color: $descriptioncolor;
+    border-bottom: 2px solid grey ;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: $btncolor;
+    display: flex;
+    width: 215px;
+    height: 42px;
+    justify-content: center;
+    margin: 30px;
+    float: right;
+    align-items: center;
+    border: none;
+}
+.about{ 
+        h1{
+        display: flex;
+        justify-content: flex-end;
+        text-transform: uppercase;
+        }
+        p{
+            padding-bottom: 20px;
+        }
+    }
+.contact-form h4{  
+            text-transform: uppercase;
+            display: flex;
+            justify-content: flex-end ;
+}
+.contact-form h1{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+}
+.nameaddress{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+        input{
+            width: 470px;
+            height: 40px;
+        }
+}
+.name p{
+    display: flex;
+    justify-content: flex-end;
+    color: $articlecolor ;
+}
+.address p{
+    display: flex;
+    justify-content: flex-end;
+    color: $articlecolor;
+}
+.textarea{
+    width: 960px;
+    height: 100px;
+}
+.question{
+    padding-top: 15px;
+}
+.question p{
+    display: flex;
+    justify-content: flex-end;
+    color: $articlecolor ;
+}
+.sendbtn{
+    color: white;
+    text-transform: uppercase;
+    background-color: $btncolor;
+    display: flex;
+    width: 215px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 15px 0;
+}
+.send-button{
+    margin: 0 750px;
+}
+.main-wrapper{
+    background-color: $mainbgcolor;
+}
+h3{
+    text-transform: uppercase;
+    color: $articlecolor;
+}
